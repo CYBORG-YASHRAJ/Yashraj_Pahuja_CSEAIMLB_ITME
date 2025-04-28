@@ -1,0 +1,350 @@
+.discussion-page-container {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+#discussion-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#paper-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#paper-author,
+#paper-date {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+#invite-section {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+#comments-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.comment-box {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease;
+}
+
+.comment-content {
+    max-width: 100%;
+    max-height: 500px;
+    padding: 15px;
+    background-color: #f4f6f8;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#toggle-suggestion-button {
+    padding: 10px 20px;
+    border: 1px solid #4CAF50;
+    border-radius: 20px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+#toggle-suggestion-button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.comment-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.inner-comment-role {
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding-right: 10px;
+    border-right: 3px solid #ddd;
+}
+
+.inner-comment-text {
+    padding-left: 10px;
+}
+
+.inner-comment-role.admin {
+    color: red;
+}
+
+.inner-comment-role.reviewer {
+    color: green;
+}
+
+#comments-header {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+#no-comments-message {
+    font-size: 18px;
+    color: #888;
+}
+
+.comment-box.reviewer {
+    background-color: #e0f7e0;
+    border-left: 4px solid green;
+}
+
+.comment-box.admin {
+    background-color: #ffebeb;
+    border-left: 4px solid red;
+}
+
+#reviewer-autocomplete {
+    width: 100%;
+}
+
+#send-invite-button {
+    background-color: #007BFF;
+    color: white;
+    font-size: 14px;
+    padding: 8px 15px;
+    border-radius: 4px;
+}
+
+#send-invite-button:disabled {
+    background-color: #ccc;
+}
+
+#snackbar {
+    font-size: 14px;
+    color: #fff;
+    background-color: #333;
+}
+
+#discussion-content,
+#comments-section {
+    border-radius: 12px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+.inner-comment {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-left: 5px solid;
+}
+
+.inner-comment.admin {
+    background-color: #ffe6e6;
+    border-left-color: red;
+    color: red;
+}
+
+.inner-comment.reviewer {
+    background-color: #e6ffe6;
+    border-left-color: green;
+    color: green;
+}
+
+.inner-comment.you {
+    background-color: #f0f8ff;
+    border-left-color: #1e90ff;
+    color: #1e90ff;
+}
+
+.discussion-page-container {
+    background-color: #f0f2f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    color: #333;
+}
+
+#discussion-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+#paper-title {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #34495e;
+}
+
+#paper-author,
+#paper-date {
+    font-size: 16px;
+    color: #7f8c8d;
+    margin-bottom: 5px;
+}
+
+#invite-section {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    margin-bottom: 30px;
+    padding: 15px;
+}
+
+#comments-section {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.comment-box {
+    border: 1px solid #e0e0e0;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    background-color: #fafafa;
+    transition: all 0.3s ease;
+}
+
+#toggle-suggestion-button {
+    padding: 10px 20px;
+    border: 1px solid #1abc9c;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #1abc9c;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+#toggle-suggestion-button:hover {
+    background-color: #1abc9c;
+    color: white;
+}
+
+.comment-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inner-comment-role {
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding-right: 10px;
+    border-right: 3px solid #bdc3c7;
+}
+
+.inner-comment-text {
+    padding-left: 10px;
+}
+
+.inner-comment-role.admin {
+    color: #e74c3c;
+}
+
+.inner-comment-role.reviewer {
+    color: #27ae60;
+}
+
+#comments-header {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+#no-comments-message {
+    font-size: 18px;
+    color: #95a5a6;
+}
+
+.comment-box.reviewer {
+    background-color: #eafaf1;
+    border-left: 4px solid #27ae60;
+}
+
+/* Admin's comment background color */
+.comment-box.admin {
+    background-color: #fceceb;
+    border-left: 4px solid #e74c3c;
+}
+
+#reviewer-autocomplete {
+    width: 100%;
+    border: 1px solid #dcdcdc;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+#send-invite-button {
+    background-color: #3498db;
+    color: white;
+    font-size: 14px;
+    padding: 8px 15px;
+    border-radius: 4px;
+}
+
+#send-invite-button:disabled {
+    background-color: #b0c4de;
+    color: #ffffff;
+}
+
+.comment-author {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: #444;
+}
+
+.toggle-suggestion-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: #f0f8ff;
+    border: 1px solid #17a2b8;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.toggle-suggestion-button:hover {
+    background-color: #d0e7f4;
+    color: #0056b3;
+}
+
+.toggle-suggestion-button {
+    max-height: 45px;
+    line-height: normal;
+}
