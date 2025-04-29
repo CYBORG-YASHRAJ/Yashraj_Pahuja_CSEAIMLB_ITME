@@ -1,50 +1,84 @@
-# ITME Journal Publication Website
+<h1 align="center">🧠 ITME Journal Publication Website</h1>
 
-## Team Members
+<p align="center">
+  <b>Innovations and Trends in Multidisciplinary Engineering</b><br/>
+  <i>Research Paper Submission & Review System</i>
+</p>
 
-- **Piyush Kumar Sharma**  
-  B.Tech CSE (Specialization in AI and ML)  
-  Roll No: 2401730173
+<p align="center">
+  <img src="./banner.jpg" alt="ITME Banner" width="80%" />
+</p>
 
-- **Yashraj Pahuja**  
-  B.Tech CSE (Specialization in AI and ML)  
-  Roll No: 2401730205
+---
 
-## Project Description
+## 👥 Team Members
 
-The **ITME Journal Publication Website** is a full-stack web application built using the MERN (MongoDB, Express.js, React.js, Node.js) stack.  
-It enables authors to submit their research papers for review and publication.  
-The admin panel allows reviewers to manage submissions, mark paper statuses, and communicate decisions via automated emails.
+<table>
+  <tr>
+    <td><b>Piyush Kumar Sharma</b></td>
+    <td>B.Tech CSE (AI & ML)</td>
+    <td>Roll No: 2401730173</td>
+  </tr>
+  <tr>
+    <td><b>Yashraj Pahuja</b></td>
+    <td>B.Tech CSE (AI & ML)</td>
+    <td>Roll No: 2401730205</td>
+  </tr>
+</table>
 
-The platform was originally branded under "**PEI - Pioneering Engineering Insight**" and is now rebranded to "**ITME - Innovations and Trends in Multidisciplinary Engineering**".
+---
 
-Key features include:
+## 📌 Project Overview
 
-- Research paper submission with PDF upload
-- Admin review and status management
-- Automated email notifications to users
-- Real-time PDF preview using PDF.js
-- User authentication with OTP verification
-- Responsive UI for both authors and admins
+The **ITME Journal Publication Website** is a full-stack research submission system built using the MERN stack.  
+It enables authors to upload their research papers in PDF format, track their status, and receive email updates.  
+Admins can manage submissions, review papers, and send decisions to authors automatically.
 
-## Technologies Used
+> Originally branded as **PEI – Pioneering Engineering Insight**, now rebranded to **ITME**.
 
-- **Frontend:** React.js, Tailwind CSS
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB Atlas / VPS-hosted MongoDB
-- **Authentication:** JWT, OTP verification
-- **File Storage:** Server file system (`/uploads/`) for PDFs
-- **Email Service:** Nodemailer (SMTP)
+---
 
-## Link to Video Explanation
+## ✨ Key Features
 
-[Watch Project Demo](./ProjectDemo.mp4)
+- Upload and preview research papers (PDF.js)
+- OTP-based user registration and login
+- Admin panel for status updates and paper reviews
+- Email notifications using Nodemailer
+- Responsive frontend for authors & admins
+- Real-time status updates
 
-## Steps to Run/Execute the Project
+---
 
-### 1. Clone the Repository
+## 🛠️ Tech Stack
+
+| Layer       | Tools Used                             |
+|------------|------------------------------------------|
+| Frontend   | React.js, Tailwind CSS                   |
+| Backend    | Node.js, Express.js                      |
+| Database   | MongoDB Atlas / VPS-hosted MongoDB       |
+| Auth       | JWT, OTP verification                    |
+| PDF Viewer | PDF.js (v4.7.76)                         |
+| Email      | Nodemailer (SMTP)                        |
+| File Store | Server-side (`/uploads/`)                |
+
+---
+
+## 🗂️ File Structure
 
 ```bash
-git clone https://github.com/YourUsername/YourRepoName.git
-cd YourRepoName
-```
+Piyush_Sharma_CSEAIMLB_ITME1/
+├── backend/
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── uploads/             # PDF files
+│   └── server.js
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   └── App.jsx
+├── .env
+├── README.md
+└── package.json
