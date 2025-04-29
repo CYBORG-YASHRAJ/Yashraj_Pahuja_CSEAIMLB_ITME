@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <img src="./banner.jpg" alt="ITME Banner" width="80%" />
+  <img src="./banner.jpg" alt="ITME Banner" width="80%" style="border-radius:50%;"/>
 </p>
 
 ---
