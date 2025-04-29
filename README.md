@@ -5,9 +5,9 @@
   <i>Research Paper Submission & Review System</i>
 </p>
 
-<p align="center">
-  <img src="./banner.jpg" alt="ITME Banner" width="80%" style="border-radius:50%;"/>
-</p>
+<div style="width: 150px; height: 150px; border-radius: 50%; overflow: hidden;">
+  <img src="./banner.jpg" alt="ITME Banner" width="100%" height="100%" style="object-fit: cover;">
+</div>
 
 ---
 
