@@ -113,6 +113,52 @@ You are free to **reference** or **reuse with proper attribution**.
 
 ---
 
+## Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/ScienHAC/Piyush_Sharma_CSEAIMLB_ITME1.git
+cd Piyush_Sharma_CSEAIMLB_ITME1
+```
+
+### 2. Backend Setup
+
+```bash
+cd backend
+npm install
+```
+
+Create `.env` file inside `backend/`:
+
+```env
+PORT=5000  
+MONGO_URI=your_mongo_url  
+JWT_SECRET=your_secret  
+EMAIL_USER=your_email@example.com  
+EMAIL_PASS=your_password
+```
+
+Start Backend:
+
+```bash
+npm start
+```
+
+### 3. Frontend Setup
+
+```bash
+cd ../frontend
+npm install
+npm run dev
+```
+
+> App runs on [http://localhost:5173](http://localhost:5173)
+
+---
+
 <p align="center">
   Made with ❤️ by <b>Piyush Sharma</b> and <b>Yashraj Pahuja</b>
 </p>
+
+---
