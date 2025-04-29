@@ -83,3 +83,36 @@ Piyush_Sharma_CSEAIMLB_ITME1/
 ├── .env
 ├── README.md
 └── package.json
+
+---
+
+## 📹 Demo Video
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID" target="_blank">
+    <img src="https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg" alt="Demo Video" width="60%" />
+  </a>
+</p>
+
+> Replace `YOUR_VIDEO_ID` with your actual YouTube video ID to embed the preview image.
+
+---
+
+## 🧾 License
+
+This is an academic project submitted as part of university coursework.  
+You are free to **reference** or **reuse with proper attribution**.
+
+---
+
+## ⭐ Acknowledgements
+
+- Our faculty mentors for their constant support  
+- Reviewers and friends who provided valuable feedback  
+- Open-source contributors whose tools made this possible  
+
+---
+
+<p align="center">
+  Made with ❤️ by <b>Piyush Sharma</b> and <b>Yashraj Pahuja</b>
+</p>
