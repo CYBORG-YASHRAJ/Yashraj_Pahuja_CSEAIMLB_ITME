@@ -5,6 +5,8 @@
   <i>Research Paper Submission & Review System</i>
 </p>
 
+> Originally branded as **PEI – Pioneering Engineering Insight**, now rebranded to **ITME**.
+
 <div style="width: 200px; height: 200px; border-radius: 50%; overflow: hidden;">
   <img src="./banner.jpg" alt="ITME Banner" width="100%" height="100%" style="object-fit: cover;">
 </div>
@@ -89,7 +91,7 @@ Piyush_Sharma_CSEAIMLB_ITME1/
 ## 📹 Demo Video
 
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID" target="_blank">
+  <a href="https://bit.ly/4jF1Se1" target="_blank">
     <img src="https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg" alt="Demo Video" width="60%" />
   </a>
 </p>
