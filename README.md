@@ -94,7 +94,27 @@ Piyush_Sharma_CSEAIMLB_ITME1/
   </a>
 </p>
 
-> Replace `YOUR_VIDEO_ID` with your actual YouTube video ID to embed the preview image.
+> Here is the video demonstration of the site.
+
+---
+
+## 📄 Project Report
+
+You can view or download the final report of this project using the links below:
+
+### 🔍 View Online  
+[📖 View Project Report (GitHub Preview)](https://github.com/ScienHAC/Piyush_Sharma_CSEAIMLB_ITME/blob/main/Project-Report.pdf)
+
+### 📥 Direct Download  
+[⬇️ Download Project Report (Raw Link)](https://raw.githubusercontent.com/ScienHAC/Piyush_Sharma_CSEAIMLB_ITME/main/Project-Report.pdf)
+
+---
+
+<p align="center">
+  <a href="https://raw.githubusercontent.com/ScienHAC/Piyush_Sharma_CSEAIMLB_ITME/main/Project-Report.pdf" download>
+    <img src="https://img.shields.io/badge/Download%20PDF-Click%20Here-green?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Download PDF Badge"/>
+  </a>
+</p>
 
 ---
 
