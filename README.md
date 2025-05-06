@@ -91,12 +91,20 @@ Piyush_Sharma_CSEAIMLB_ITME1/
 ## 📹 Demo Video
 
 <p align="center">
-  <a href="https://bit.ly/4jF1Se1" target="_blank">
-    <img src="https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg" alt="Demo Video" width="60%" />
+  <a href="https://drive.google.com/file/d/17AKyfIHbAo9vpoaO5KWR0EYQYAxDKdgD/preview" target="_blank">
+    <img src="assets/video-preview.png" alt="Demo Video" width="60%" />
   </a>
 </p>
 
-> Here is the video demonstration of the site.
+>or
+
+<p align="center">
+  <a href="https://drive.google.com/file/d/17AKyfIHbAo9vpoaO5KWR0EYQYAxDKdgD/preview" target="_blank">
+    click here
+  </a>
+</p>
+
+> Click the preview to watch the demonstration.
 
 ---
 
