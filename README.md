@@ -1,7 +1,7 @@
 <h1 align="center">🧠 ITME Journal Publication Website</h1>
 
 <p align="center">
-  <b>Innovations and Trends in Multidisciplinary Engineering</b><br/>
+  <b>INNOVATIVE TRENDS IN MULTIDISCIPLINARY ENGINEERING</b><br/>
   <i>Research Paper Submission & Review System</i>
 </p>
 
